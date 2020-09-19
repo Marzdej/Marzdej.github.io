@@ -15,8 +15,11 @@ a{
   color:  rgb(86,131,129);
 }
 
-img.roundimages {
+.roundimages {
   border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
 }
 
 body{
