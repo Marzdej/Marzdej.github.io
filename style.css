@@ -6,7 +6,6 @@
 
 nav{
   position: fixed;
-  color: inherit;
   list-style: none;
   font-size: x-large;
   font-weight: bold;
@@ -23,7 +22,6 @@ img.roundimages {
 
 body{
   color: black;
-  background-color: whitesmoke;
   align-items: center;
   width: 100vw;
   height: 100vh;
@@ -35,13 +33,17 @@ main {
 }
 
 .main-section {
-  height: 900px;
-  background-color: whitesmoke;
+  height: 650px;
+  background-color: rgb(240,240,238);
+  background-image: url("main_screen.jpg");
+  background-size: 50%;
+  background-position: center; 
+  background-repeat: no-repeat;
 }
 
 .whoami-section {
   height: 600px;
-  background-color: lightblue;
+  background-color: whitesmoke;
 }
 
 .skills-section {
@@ -60,7 +62,7 @@ main {
 }
 
 footer{
-  height: 60px;
+  height: 55px;
   background-color: rgb(48, 48, 48);
   color: whitesmoke;
 }
