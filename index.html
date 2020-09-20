@@ -5,7 +5,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="UTF-8">
@@ -18,20 +19,20 @@
     <title>Jordan Marsden's Portfolio</title>
 </head>
 
-<style> 
-    .dropdown-toggle::after { 
-        content: none; 
-    } 
-</style> 
+<style>
+    .dropdown-toggle::after {
+        content: none;
+    }
+</style>
 
 <body style="background-color: rgb(240,240,238);">
     <header>
         <div class="container">
             <nav class="navbar navbar-light blacktext" style="background:none;">
-                    <div class="roundimages">
-                    <img src="profilepic.jpg" href="index.html#homep" alt="It's me!" width="150"height="150">
-                    </div>
-                    <div class="navbar navbar-light blacktext flex-row">
+                <div class="roundimages">
+                    <img src="profilepic.jpg" href="index.html#homep" alt="It's me!" width="150" height="150">
+                </div>
+                <div class="navbar navbar-light blacktext flex-row">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#whoamip">About Me</a>
                     </li>
@@ -39,60 +40,217 @@
                         <a class="nav-link" href="index.html#skillsp">Skills</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="index.html#projectp" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Projects
+                        <a class="nav-link dropdown-toggle" href="index.html#projectp" id="navbarDropdownMenuLink"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Projects
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: rgb(240,240,238);">
-                          <a class="dropdown-item" href="#">Project One</a>
-                          <a class="dropdown-item disabled" href="#">Project Two</a>
-                          <a class="dropdown-item disabled" href="#">Project Three</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"
+                            style="background-color: rgb(240,240,238);">
+                            <a class="dropdown-item" href="#">Project One</a>
+                            <a class="dropdown-item disabled" href="#">Project Two</a>
+                            <a class="dropdown-item disabled" href="#">Project Three</a>
                         </div>
-                      </li>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#contactp">Contact</a>
                     </li>
                 </div>
             </nav>
-          </div>
+        </div>
     </header>
 
     <main>
-<section class="main-section">
+        <section class="main-section">
 
-</section>
+        </section>
 
-<section class="whoami-section">
-    <h4 id="whoamip">Hey!</h4>
-    <h5>I'm a junior software developer based in South Wales, UK. Thanks to my employer, Admiral Insurance, I am currently studying a website development course with _nology as I train to become a website developer </h5>
-    <h5>I am also studying towards a degree in Software Engineering at Swansea University </h5>
-</section>
+        <section class="whoami-section">
+            <h1 id="whoamip">Hey!</h1>
+            <h2 style="color: rgb(163, 131, 24)">I'm Jordan. A junior software developer based in South Wales, UK.</h2>
+            <h4 style="color: rgb(163, 131, 24)">Click the icons below to learn more about me!</h4>
 
-<section class="skills-section">
-    <h4 id="skillsp">My quiver of arrows</h4>
-    <h5>Thanks to _nology I have learned the fundamentals of HTML, CSS, Git and Bootstrap enabling me to build this site and add more tools to my arsenal of skills</h5>
-    </section>
+            <h3>Experience</h3>
+            <button type="button" class="btn btn-lg" style="color:whitesmoke; background-color: rgb(255, 127, 80);"
+                data-toggle="popover" title="Student"
+                data-content="I am currently studying my second degree in Software Engineering at Swansea University"><i
+                    class="fas fa-university"></i></button>
+            <button type="button" class="btn btn-lg" style="color:whitesmoke; background-color: rgb(255, 127, 80)"
+                data-toggle="popover" title="Graduate"
+                data-content="In 2004 I graduated with a 2:1 degree in Computer Science at The University Of South Wales"><i
+                    class="fas fa-graduation-cap"></i></button>
+            <button type="button" class="btn btn-lg" style="color:whitesmoke; background-color: rgb(255, 127, 80)"
+                data-toggle="popover" title="Employee"
+                data-content="I am an IT executive at Admiral Insurance where I am training to become a software developer."><i
+                    class="fas fa-briefcase"></i></button>
+            <button type="button" class="btn btn-lg" style="color:whitesmoke; background-color: rgb(255, 127, 80)"
+                data-toggle="popover" title="Trainee"
+                data-content="I am currently studying a website development course with _nology as I train to become a website developer"><i
+                    class="fas fa-laptop-code"></i></button>
 
-<section class="project-section">
-    <h4 id="projectp">Behold my projects!</h4>
-    <h5>This section is ever-growing.</h5>
-</section>
+            <h3>Hobbies</h3>
+            <button type="button" class="btn btn-lg" style="color:whitesmoke; background-color:rgb(255, 127, 80)"
+                data-toggle="popover" title="Swimming"
+                data-content="I am an active swimmer with plans to sit the PADI Open Water Diver course later this year."><i
+                    class="fas fa-swimming-pool"></i></button>
+            <button type="button" class="btn btn-lg" style="color:whitesmoke; background-color:rgb(255, 127, 80)"
+                data-toggle="popover" title="Horology"
+                data-content="I collect and flip watches, which has been a hobby for some time. My favourite timepiece is my Tudor Pelagos."><i
+                    class="fas fa-clock"></i></button>
+            <button type="button" class="btn btn-lg" style="color:whitesmoke; background-color:rgb(255, 127, 80)"
+                data-toggle="popover" title="Cycling"
+                data-content="Since COVID I have started taking cycling up as a hobby. What better place to cycle than coastal sunny Swansea?"><i
+                    class="fas fa-bicycle"></i></button>
+            <button type="button" class="btn btn-lg" style="color:whitesmoke; background-color:rgb(255, 127, 80)"
+                data-toggle="popover" title="Video Games"
+                data-content="I have been an avid gamer ever since the Sega Megadrive. My favourite genre being Action-RPG"><i
+                    class="fas fa-gamepad"></i></button>
 
-<section class="contact-section">
-    <h4 id="contactp">Drop me a line</h4>
-    <h5>Don't be a stranger. If you need any help or just want to say hi, then just hola!</h5>
-    <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="background-color: rgb(86,131,129); font: bold;">Message Me</a>
-</section> 
+        </section>
+
+        <section class="skills-section">
+            <h2 id="skillsp">My Skill Bar</h2>
+            <h4 style="color: rgb(163, 131, 24)">Thanks to _nology I have learned the fundamentals of HTML, CSS, Git and Bootstrap.</h4>
+            <h4 style="color: rgb(163, 131, 24)">The knowledge and skills that I have developed were utilised to build this site and add more arrows to my quiver. </h4>
+
+            <h5>Programming Languages</h5>
+
+            <button type="button" class="btn btn-secondary" style="color:whitesmoke; background-color: rgb(255, 127, 80)"
+                data-toggle="tooltip" data-placement="bottom" title="Java">
+                <i class="fab fa-java"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary" style="color:whitesmoke; background-color:rgb(255, 127, 80)"
+                data-toggle="tooltip" data-placement="bottom" title="JavaScript">
+                <i class="fab fa-js-square"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary" style="color:whitesmoke; background-color:rgb(255, 127, 80)"
+                data-toggle="tooltip" data-placement="bottom" title="HTML">
+                <i class="fab fa-html5"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary" style="color:whitesmoke; background-color:rgb(255, 127, 80)"
+                data-toggle="tooltip" data-placement="bottom" title="CSS">
+                <i class="fab fa-css3"></i>
+            </button>
+
+
+            <h5>Applications</h5>
+
+            <button type="button" class="btn btn-secondary" style="color:whitesmoke; background-color:rgb(255, 127, 80)"
+                data-toggle="tooltip" data-placement="bottom" title="Github">
+                <i class="fab fa-github"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary" style="color:whitesmoke; background-color:rgb(255, 127, 80)"
+                data-toggle="tooltip" data-placement="bottom" title="Git">
+                <i class="fab fa-git"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary" style="color:whitesmoke; background-color:rgb(255, 127, 80)"
+                data-toggle="tooltip" data-placement="bottom" title="Wordpress">
+                <i class="fab fa-wordpress"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary" style="color:whitesmoke; background-color:rgb(255, 127, 80)"
+                data-toggle="tooltip" data-placement="bottom" title="Photoshop & Illustrator">
+                <i class="fas fa-images"></i>
+            </button>
+
+            <h5>Operating Systems</h5>
+
+            <button type="button" class="btn btn-secondary" style="color:whitesmoke; background-color:rgb(255, 127, 80)"
+                data-toggle="tooltip" data-placement="bottom" title="Windows">
+                <i class="fab fa-windows"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary" style="color:whitesmoke; background-color:rgb(255, 127, 80)"
+                data-toggle="tooltip" data-placement="bottom" title="Apple & iOS">
+                <i class="fas fa-apple-alt"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary" style="color:whitesmoke; background-color:rgb(255, 127, 80)"
+                data-toggle="tooltip" data-placement="bottom" title="Linux Ubuntu Distrobution">
+                <i class="fab fa-linux"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary" style="color:whitesmoke; background-color:rgb(255, 127, 80)"
+                data-toggle="tooltip" data-placement="bottom" title="Android">
+                <i class="fab fa-android"></i>
+            </button>
+
+            <h5>Other Knowledge</h5>
+            <button type="button" class="btn btn-secondary" style="color:whitesmoke; background-color:rgb(255, 127, 80)"
+                data-toggle="tooltip" data-placement="bottom" title="Motor Insurance & Claims">
+                <i class="fas fa-car-crash"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary" style="color:whitesmoke; background-color:rgb(255, 127, 80)"
+                data-toggle="tooltip" data-placement="bottom"
+                title="Employment Law - Qualified Trade Union Representative">
+                <i class="fas fa-gavel"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary" style="color:whitesmoke; background-color:rgb(255, 127, 80)"
+                data-toggle="tooltip" data-placement="bottom" title="Computer building, repair & diagnosis">
+                <i class="fas fa-toolbox"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary" style="color:whitesmoke; background-color:rgb(255, 127, 80)"
+                data-toggle="tooltip" data-placement="bottom" title="Data Analysis">
+                <i class="fas fa-chart-line"></i>
+            </button>
+
+        </section>
+
+        <section class="project-section">
+            <h2 id="projectp">Behold my projects!</h2>
+            <h5 style="color: rgb(163, 131, 24)">This section is ever-growing as I continue to develop!</h5>
+        </section>
+
+        <section class="contact-section">
+            <h2 id="contactp">Drop me a line</h2>
+            <h5 style="color:rgb(163, 131, 24)">Don't be a stranger. If you need any help or just want to say hi, then just hola!</h5>
+            <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true"
+                style="background-color:rgb(86,131,129); font: bold;">Message Me</a>
+        </section>
     </main>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <a class="gotopbtn" href="#" data-toggle="tooltip" data-placement="top" title="Scroll To The Top"> <i class="fas fa-arrow-alt-circle-up"></i> </a>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <a class="gotopbtn" href="#" data-toggle="tooltip" data-placement="top" title="Scroll To The Top"> <i
+            class="fas fa-arrow-alt-circle-up"></i> </a>
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+
 </body>
 <footer>
- <p style="font-weight: bold;">By Jordan Marsden 2020. All rights reserved.</p> 
- <a class="socialmedia" href="https://www.linkedin.com/in/j-marsden/" data-toggle="tooltip" data-placement="top" title="Linkedin Profile"> <i class="fab fa-linkedin"></i> </a>
- <a class="socialmedia" href="https://github.com/Marzdej" data-toggle="tooltip" data-placement="top" title="Github Profile"> <i class="fab fa-github-square"></i> </a>
- <a class="socialmedia" href="mailto:marzdej@icloud.com" data-toggle="tooltip" data-placement="top" title="Email Me"> <i class="fas fa-envelope"></i> </a>
+    <p style="font-weight: bold;">By Jordan Marsden 2020. All rights reserved.</p>
+    <a class="socialmedia" href="https://www.linkedin.com/in/j-marsden/" data-toggle="tooltip" data-placement="top"
+        title="Linkedin Profile"> <i class="fab fa-linkedin"></i> </a>
+    <a class="socialmedia" href="https://github.com/Marzdej" data-toggle="tooltip" data-placement="top"
+        title="Github Profile"> <i class="fab fa-github-square"></i> </a>
+    <a class="socialmedia" href="mailto:marzdej@icloud.com" data-toggle="tooltip" data-placement="top" title="Email Me">
+        <i class="fas fa-envelope"></i> </a>
+    <a class="socialmedia" href="www.tynantcatsanctuary.org" data-toggle="tooltip" data-placement="top"
+        title="Donate to this cat sanctuary!"> <i class="fas fa-cat"></i> </a>
 </footer>
 
 </html>

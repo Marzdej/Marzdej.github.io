@@ -64,7 +64,6 @@ main {
 
 footer{
   height: 80px;
-  background-color: rgb(19,31,32);
   color: rgb(177, 197, 197);
 }
 
@@ -96,7 +95,7 @@ html{
 
 .socialmedia{
   position: absolute;
-  color: aliceblue;
+  color:rgb(86,131,129);
   font-size: 30px;
 }
 
