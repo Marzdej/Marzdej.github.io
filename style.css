@@ -26,6 +26,7 @@ body{
   align-items: center;
   width: 100vw;
   height: 100vh;
+  text-align: center;
 }
 
 main {
@@ -34,7 +35,7 @@ main {
 }
 
 .main-section {
-  height: 650px;
+  height: 682px;
   background-color: rgb(240,240,238);
   background-image: url("main_screen.jpg");
   background-size: 50%;
@@ -45,26 +46,28 @@ main {
 .whoami-section {
   height: 600px;
   background-color: whitesmoke;
+  text-align: center;
 }
 
 .skills-section {
   height: 600px;
-  background-color: whitesmoke;
 }
 
 .project-section {
   height: 600px;
-  background-color: lightblue;
+  text-align: center;
+  padding: 10px;
+  background-color: whitesmoke;
 }
 
 .contact-section {
   height: 500px;
-  background-color: whitesmoke;
 }
 
 footer{
   height: 80px;
   color: rgb(177, 197, 197);
+  background-color: whitesmoke;
 }
 
 .project-page {
@@ -97,5 +100,13 @@ html{
   position: absolute;
   color:rgb(86,131,129);
   font-size: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
