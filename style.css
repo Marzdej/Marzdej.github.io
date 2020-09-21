@@ -44,24 +44,24 @@ main {
 }
 
 .whoami-section {
-  height: 600px;
+  height: 580px;
   background-color: whitesmoke;
   text-align: center;
 }
 
 .skills-section {
-  height: 600px;
+  height: 570px;
 }
 
 .project-section {
-  height: 600px;
+  height: 550px;
   text-align: center;
   padding: 10px;
   background-color: whitesmoke;
 }
 
 .contact-section {
-  height: 500px;
+  height: 300px;
   margin: 20px;
 }
 
@@ -69,6 +69,7 @@ footer{
   height: 80px;
   color: rgb(177, 197, 197);
   background-color: whitesmoke;
+  padding-top: 40px;
 }
 
 .project-page {
@@ -97,17 +98,42 @@ html{
   scroll-behavior: smooth;
 }
 
+.skillbar {
+  display: flex;
+  border: solid black;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-direction: column;
+}
+
+.bar{
+  display: flex;
+  align-items: flex-start;
+}
+
 .socialmedia{
   position: absolute;
   color:rgb(17, 24, 31);";
-  font-size: 30px;
+  size: 100%;
+  font-size: 40px;
   display: flex;
   justify-content: space-evenly;
   text-align: center;
+  width: 100%;
 }
 
 .cards{
   display: flex;
   justify-content: space-evenly;
   padding: 30px;
+}
+
+.experience {
+text-size-adjust: 50px;
+}
+
+@media only screen and (max-width: 992px) {
+  .cards {
+      justify-content: space-evenly;
+  }
 }
