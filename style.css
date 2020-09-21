@@ -47,22 +47,25 @@ main {
   height: 580px;
   background-color: whitesmoke;
   text-align: center;
+  padding-top: 40px;
 }
 
 .skills-section {
-  height: 570px;
+  height: 610px;
+  padding-top: 50px;
 }
 
 .project-section {
-  height: 550px;
+  height: 600px;
   text-align: center;
-  padding: 10px;
+  padding: 40px;
   background-color: whitesmoke;
 }
 
 .contact-section {
-  height: 300px;
+  height: 200px;
   margin: 20px;
+  padding: 50px;
 }
 
 footer {
@@ -73,12 +76,13 @@ footer {
 }
 
 .project-page {
-  height: 650px;
+  height: 700px;
   background-color: rgb(240, 240, 238);
   background-image: url("https://gfycat.com/imperturbablebouncybighornsheep");
   background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
+  padding-top: 40px;
 }
 
 .gotopbtn {
