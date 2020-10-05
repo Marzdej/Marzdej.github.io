@@ -71,15 +71,6 @@ footer {
   padding-top: 40px;
 }
 
-.project-page {
-  background-color: rgb(240, 240, 238);
-  background-image: url("https://gfycat.com/imperturbablebouncybighornsheep");
-  background-size: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding-top: 40px;
-}
-
 .gotopbtn {
   position: fixed;
   width: 50px;
@@ -135,32 +126,17 @@ html {
 
 
 @media only screen and (max-device-width: 480px) {
-  div#wrapper {
-      width: 400px;
+  .main-section {
+      float: none;
+      background-image: url("main_screen.jpg");
+      background-size: 450px;
+      background-position: center;
+      padding: 0;
+      
   }
 
-  div#header {
-      background-image: url(media-queries-phone.jpg);
-      height: 93px;
-      position: relative;
-  }
-
-  .roundimages{
-    float: none;
-    width: 100%;
-    position: fixed;
-    align-items: center;
+  .whoami-section {
+    padding: 0;
 }
 
-  .main {
-      float: none;
-      width: 100%;
-      position: fixed;
-  }
-
-  .nav {
-      float:none;
-      width: auto;
-      align-items: center;
-  }
 }
