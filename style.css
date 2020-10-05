@@ -35,48 +35,43 @@ main {
 }
 
 .main-section {
-  height: 682px;
   background-color: rgb(240, 240, 238);
   background-image: url("main_screen.jpg");
   background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
+  height: 680px;
 }
 
 .whoami-section {
-  height: 580px;
   background-color: whitesmoke;
   text-align: center;
-  padding-top: 40px;
+  padding: 40px;
+  
 }
 
 .skills-section {
-  height: 610px;
   padding-top: 50px;
 }
 
 .project-section {
-  height: 600px;
   text-align: center;
-  padding: 40px;
+  padding: 50px;
   background-color: whitesmoke;
 }
 
 .contact-section {
-  height: 200px;
   margin: 20px;
   padding: 50px;
 }
 
 footer {
-  height: 80px;
   color: rgb(177, 197, 197);
   background-color: whitesmoke;
   padding-top: 40px;
 }
 
 .project-page {
-  height: 700px;
   background-color: rgb(240, 240, 238);
   background-image: url("https://gfycat.com/imperturbablebouncybighornsheep");
   background-size: 50%;
@@ -136,17 +131,36 @@ html {
   text-size-adjust: 50px;
 }
 
-@viewport {
-  min-width: 640px;
-  max-width: 800px;
+
+
+
+@media only screen and (max-device-width: 480px) {
+  div#wrapper {
+      width: 400px;
+  }
+
+  div#header {
+      background-image: url(media-queries-phone.jpg);
+      height: 93px;
+      position: relative;
+  }
+
+  .roundimages{
+    float: none;
+    width: 100%;
+    position: fixed;
+    align-items: center;
 }
 
-@viewport {
-  zoom: 0.75;
-  min-zoom: 0.5;
-  max-zoom: 0.9;
-}
+  .main {
+      float: none;
+      width: 100%;
+      position: fixed;
+  }
 
-@viewport {
-  orientation: landscape;
+  .nav {
+      float:none;
+      width: auto;
+      align-items: center;
+  }
 }
